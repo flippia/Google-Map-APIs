@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+}
+div.container{
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    margin: 20px auto;
+    color: teal;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 0;
+    /* border-bottom: 2px solid #555; */
+    border-radius: 10px;
+}
+.results{
+    padding: 10px;
+}
+.timestamp{
+    padding: 2px;
+}
+.localTime{
+    padding: 2px;
+}
+#map{
+    height: 450px;
+    width: 100%;
+    margin: 20px auto 0;
+}
